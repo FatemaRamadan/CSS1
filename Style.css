@@ -1,7 +1,7 @@
 body header{
     background-color:rgb(244,67,54);
 }
- a:hover { 
+header a:hover { 
     background-color:white;
     color: black;
  }
@@ -13,35 +13,120 @@ body header a{
     font-family:sans-serif;
     text-decoration:none;
     margin-left:0%;
+    height: 50px;
     margin-top: 0%;
-    margin-bottom: 20px;
+    margin-bottom:30px;
     padding:20px;
-    border: 10px rgb(244,67,54) ;
+    border: 10px rgb(94, 26, 21) ;
     color: white;
 }
-body header h1{
+body header div h1{
 color: white;
 font-size: 80px;
 font-family:sans-serif;
 text-align: center;
 margin-top:130px;
+display:block;
 }
-
-body header div a:hover { 
-    background-color:black;
-    color: white;
-}
-body main section h3 img{
-    color:white;
+body header div a{
     text-align: center;
-    float: left;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:600px;
+    color:white;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
 }
-.mainParagraph{
+body header div a:hover { 
+    background-color:gray;
+    color:black;
+    
+}
+main section{
     background-color: white;
-    margin-top: 10px;
-    text-align: left;   
+    margin-top: 60px 0px 20px 60px;
+    margin-left: 100px;
+
+}
+main section h3{
+    font-size:45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+main section img{
+    float: right;
+}
+main img{
+    float: left;
+    margin-right:200px;
+}
+main section p{
+    color: gray;
+    margin-top: 40px;
+}
+body h4{
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 60px 0px 20px 60px;
+    margin-left:650px;
+    
+}
+body article{
+    background-color:rgb(241,241,241); 
 }
 
+body article img{
+    margin-left: 200px;
+    float: left;
+}
+body h5{
+    background-color: gray;
+    text-align: center;
+    font-size: 30px;
+    padding:70px
+}
+footer{
+    color:gray;
+    padding:30px;
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
